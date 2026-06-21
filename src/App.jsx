@@ -60,7 +60,7 @@ const PROJECTS = [
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     repo: "#",
   },
-]
+];
 
 const CERTS = [
   { name: "MERN Stack Web Developer Certification", link: "assets/Suraj%20Laxman%20Ghodke%20Course.pdf" },
