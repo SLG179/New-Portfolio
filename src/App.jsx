@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaAngular, FaNodeJs, FaGitAlt, FaGithub as FaGithubSkill, FaDocker, FaAws, FaDatabase } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiVscodium, SiGitlab } from "react-icons/si";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaLinkedin, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaAngular, FaNodeJs, FaGitAlt, FaGithub as FaGithubSkill, FaDocker, FaAws } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiGitlab } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import "./App.css";
 
