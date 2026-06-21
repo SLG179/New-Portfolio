@@ -40,13 +40,13 @@ const PROJECTS = [
     title: "Responsive Portfolio Website",
     desc: "Built a clean, mobile-friendly portfolio using HTML, CSS, and JavaScript with smooth animations and responsive layouts to showcase my skills and projects.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
-    repo: "https://slg179.github.io/New-Portfolio/",
+    repo: "https://github.com/SLG179/New-Portfolio",
   },
   {
     title: "Synapse Grid - NRI Support Service Platform",
     desc: "A centralized platform helping NRIs manage their financial, legal, and administrative needs in India from anywhere in the world. Bridging the distance with verified services, real-time updates, and seamless support.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
-    repo: "https://slg179.github.io/Synapse-Grid-NRI-Support-Service/"
+    repo: "https://github.com/SLG179/Synapse-Grid-NRI-Support-Service",
   },
   {
     title: "React-Based Dashboard UI",
@@ -289,7 +289,7 @@ function Projects() {
                 <div className="project-card__tags">
                   {p.tags.map(t => <span key={t} className="tag">{t}</span>)}
                 </div>
-                <a href={p.repo} className="project-card__link">
+                <a href={p.repo} className="project-card__link" target="_blank" rel="noreferrer">
                   View Repository <span>→</span>
                 </a>
               </div>
