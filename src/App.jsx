@@ -40,13 +40,13 @@ const PROJECTS = [
     title: "Responsive Portfolio Website",
     desc: "Built a clean, mobile-friendly portfolio using HTML, CSS, and JavaScript with smooth animations and responsive layouts to showcase my skills and projects.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
-    repo: "https://github.com/SLG179/New-Portfolio.git",
+    repo: "https://slg179.github.io/New-Portfolio/",
   },
   {
     title: "Synapse Grid - NRI Support Service Platform",
     desc: "A centralized platform helping NRIs manage their financial, legal, and administrative needs in India from anywhere in the world. Bridging the distance with verified services, real-time updates, and seamless support.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
-    repo: "https://github.com/SLG179/Synapse-Grid-NRI-Support-Service.git"
+    repo: "https://slg179.github.io/Synapse-Grid-NRI-Support-Service/"
   },
   {
     title: "React-Based Dashboard UI",
