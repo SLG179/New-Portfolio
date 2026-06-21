@@ -40,24 +40,28 @@ const PROJECTS = [
     title: "Responsive Portfolio Website",
     desc: "Built a clean, mobile-friendly portfolio using HTML, CSS, and JavaScript with smooth animations and responsive layouts to showcase my skills and projects.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
+    live: "https://slg179.github.io/New-Portfolio/",
     repo: "https://github.com/SLG179/New-Portfolio",
   },
   {
     title: "Synapse Grid - NRI Support Service Platform",
     desc: "A centralized platform helping NRIs manage their financial, legal, and administrative needs in India from anywhere in the world. Bridging the distance with verified services, real-time updates, and seamless support.",
     tags: ["HTML5", "CSS3", "JavaScript", "React.js"],
+    live: null,
     repo: "https://github.com/SLG179/Synapse-Grid-NRI-Support-Service",
   },
   {
     title: "React-Based Dashboard UI",
     desc: "Built an interactive and responsive dashboard using React, featuring dynamic data visualization, reusable components, and a clean, modern interface.",
     tags: ["React.js", "Tailwind CSS"],
+    live: null,
     repo: "#",
   },
   {
     title: "E-commerce Frontend",
     desc: "Developed a clean and responsive e-commerce UI using HTML, CSS, and JavaScript. Implemented product listings, dynamic cart functionality, and smooth user interactions.",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    live: null,
     repo: "#",
   },
 ];
@@ -289,9 +293,16 @@ function Projects() {
                 <div className="project-card__tags">
                   {p.tags.map(t => <span key={t} className="tag">{t}</span>)}
                 </div>
-                <a href={p.repo} className="project-card__link" target="_blank" rel="noreferrer">
-                  View Repository <span>→</span>
-                </a>
+                <div className="project-card__actions">
+                  {p.live && (
+                    <a href={p.live} className="project-card__link project-card__link--primary" target="_blank" rel="noreferrer">
+                      Visit Site <span>↗</span>
+                    </a>
+                  )}
+                  <a href={p.repo} className="project-card__link" target="_blank" rel="noreferrer">
+                    View Repository <span>→</span>
+                  </a>
+                </div>
               </div>
             </AnimatedSection>
           ))}

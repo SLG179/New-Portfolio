@@ -586,6 +586,12 @@ ul { list-style: none; }
   font-family: var(--font-mono);
   border: 1px solid rgba(108,99,255,0.2);
 }
+.project-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
 .project-card__link {
   font-size: 0.88rem;
   color: var(--text-faint);
@@ -596,6 +602,10 @@ ul { list-style: none; }
   position: relative;
   z-index: 1;
   cursor: pointer;
+}
+.project-card__link--primary {
+  color: var(--accent);
+  font-weight: 600;
 }
 .project-card__link:hover { color: var(--accent); }
 .project-card__link span { transition: transform 0.2s; }
