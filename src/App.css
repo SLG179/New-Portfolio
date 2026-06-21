@@ -538,6 +538,7 @@ ul { list-style: none; }
   background: linear-gradient(135deg, rgba(108,99,255,0.05) 0%, transparent 60%);
   opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 .project-card:hover::before { opacity: 1; }
 .project-card:hover {
@@ -590,6 +591,8 @@ ul { list-style: none; }
   align-items: center;
   gap: 0.3rem;
   transition: color 0.2s;
+  position: relative;
+  z-index: 1;
 }
 .project-card__link:hover { color: var(--accent); }
 .project-card__link span { transition: transform 0.2s; }
