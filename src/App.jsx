@@ -62,7 +62,7 @@ const PROJECTS = [
     desc: "Developed a clean and responsive e-commerce UI using HTML, CSS, and JavaScript. Implemented product listings, dynamic cart functionality, and smooth user interactions.",
     tags: ["HTML", "CSS", "JavaScript"],
     live: "https://slg179.github.io/ELARA-E-Commerce-Frontend-Design/",
-    repo: "https://github.com/SLG179/ELARA-E-Commerce-Frontend-Design.git",
+    repo: "https://github.com/SLG179/ELARA-E-Commerce-Frontend-Design",
   },
 ];
 
